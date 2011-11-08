@@ -10,7 +10,7 @@ Notice to the [OAuth Process](https://dev.twitter.com/docs/auth/oauth)
 -------
 
 To get access to the Twitter API you have to [create a new application](https://dev.twitter.com/apps/new). You need this to get a consumer key and consumer secret.
-You have to add these two values to the class `TwitterAuthorization.java`:
+You have to add these two values to the class `src/TwitterAuthorization.java`:
 
     private final static String O_AUTH_CONSUMER_KEY = "*********************";
     private final static String O_AUTH_CONSUMER_SECRET = "******************************************";
