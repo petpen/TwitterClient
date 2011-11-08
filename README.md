@@ -52,4 +52,4 @@ If you are still in the same directory as above use this:
     java -cp bin:lib/twitter4j-core-2.2.5.jar:lib/twitter4j-async-2.2.5.jar:lib/twitter4j-stream-2.2.5.jar TwitterApp
 
 After the programm is running it will ask you to enter the given URL into your browser. Follow the steps on this website and copy the pin to the programm.
-Your client is ready now. If someone mentions you with `@` your client will answer with a random calculation questtion.
+Your client is ready now. If someone mentions you with `@<YourTwitterUserName>` your client will answer with a random calculation question.
