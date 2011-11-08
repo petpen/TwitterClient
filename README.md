@@ -2,7 +2,7 @@ Twitter Client for Java
 =============
 
 This client automatically answers to a twitter user.
-It uses [twitter4j]{https://github.com/yusuke/twitter4j} to call the TwitterAPI.
+It uses [twitter4j](https://github.com/yusuke/twitter4j) to call the TwitterAPI.
 
 **Description is for Unix only!**
 
