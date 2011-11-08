@@ -41,7 +41,7 @@ Now we create the folder for the binaries
 With the following command you can run the java compiler `javac` configured 
 for this project
 
-    javac -sourcepath src -classpath bin:lib/twitter4j-core-2.2.5.jar:lib/twitter4j-async-2.2.5.jar:lib/twitter4j-stream-2.2.5.jar src/*.java -d bin
+    javac -sourcepath src -classpath bin:lib/twitter4j-core-2.2.5.jar:lib/twitter4j-stream-2.2.5.jar src/*.java -d bin
 
 Usage
 -------
@@ -49,7 +49,7 @@ Usage
 To use the programm you have to start it with the java virtual machine. Use `java` to do so.
 If you are still in the same directory as above use this:
 
-    java -cp bin:lib/twitter4j-core-2.2.5.jar:lib/twitter4j-async-2.2.5.jar:lib/twitter4j-stream-2.2.5.jar TwitterApp
+    java -cp bin:lib/twitter4j-core-2.2.5.jar:lib/twitter4j-stream-2.2.5.jar TwitterApp
 
 After the programm is running it will ask you to enter the given URL into your browser. Follow the steps on this website and copy the pin to the programm.
 Your client is ready now. If someone mentions you with `@<YourTwitterUserName>` your client will answer with a random calculation question.
