@@ -11,7 +11,7 @@ Notice to the [OAuth Process](https://dev.twitter.com/docs/auth/oauth)
 
 To get access to the Twitter API you have to [create a new application](https://dev.twitter.com/apps/new). You need this to get a consumer key and secret.
 
-### Setting up the access of the Twitter Client
+### Setting up the access level
 
 Make sure your application has **Read and Write** acces. Go to the "Settings" page of your app and scroll down to "Application type" where you can set this option.
 Go back to the "Details" page and insert the consumer key and secret to your application.
