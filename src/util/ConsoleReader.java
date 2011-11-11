@@ -10,13 +10,13 @@ import java.io.InputStreamReader;
  *
  */
 public class ConsoleReader {
-	private static String errorMessageIO = "There was an error while reading. An empty String will be returned";
+	private final static String ERROR_TEXT_IO = "There was an error while reading. An empty String will be returned";
 	
 	/**
 	 * Displays no message on the OutputStream.
 	 * Reads a message from the InputStream.
 	 * 
-	 * @return the line entered by the user
+	 * @return Line entered by the user. If there is an {@link IOException} it will return an empty String.
 	 */
 	public static String readLine() {
 		return readLine("");
@@ -26,8 +26,9 @@ public class ConsoleReader {
 	 * Displays a given message on the OutputStream
 	 * Reads a message from the InputStream
 	 * 
-	 * @param message - to display on the OutputStream
-	 * @return the line entered by the user
+	 * @param message to display on the OutputStream
+	 * 
+	 * @return Line entered by the user. If there is an {@link IOException} it will return an empty String.
 	 */
 	public static String readLine(String message) {
 		String line = "";
@@ -39,7 +40,7 @@ public class ConsoleReader {
 		try {
 			line = br.readLine();
 		} catch (IOException e) {
-			System.out.println(errorMessageIO);
+			System.out.println(ERROR_TEXT_IO);
 			line = "";
 		}
 		
