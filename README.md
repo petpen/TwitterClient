@@ -14,7 +14,7 @@ To get access to the Twitter API you have to [create a new application](https://
 ### Setting up the access level
 
 Make sure your application has **Read and Write** acces. Go to the "Settings" page of your app and scroll down to "Application type" where you can set this option.
-Go back to the "Details" page and copy the consumer key and secret into `src/TwitterAuthorization.java` to the following lines:
+Go back to the "Details" page and copy the consumer key and secret into `src/client/TwitterAuthorization.java` to the following lines:
 
     private final static String O_AUTH_CONSUMER_KEY = "*********************";
     private final static String O_AUTH_CONSUMER_SECRET = "******************************************";

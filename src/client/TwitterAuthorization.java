@@ -12,8 +12,8 @@ public class TwitterAuthorization {
 	private final static String ENTER_PIN_MESSAGE = "Enter the PIN from the Website (if available) or just hit enter. [PIN]:";
 
 	//TODO Remove before commitment
-	private final static String O_AUTH_CONSUMER_KEY = "dOq3yVPDZxKICY7ZlSLZg";
-	private final static String O_AUTH_CONSUMER_SECRET = "8Ajg4lpNvKa1d6Gyzdx3nveYqX2IhKtQSEHBBMzZdo";
+	private final static String O_AUTH_CONSUMER_KEY = "*********************";
+	private final static String O_AUTH_CONSUMER_SECRET = "******************************************";
 	
 	private AccessToken accessToken = null;
 	
