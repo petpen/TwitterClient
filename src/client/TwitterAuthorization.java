@@ -1,3 +1,4 @@
+package client;
 import exceptions.AccessAccountFailedException;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;

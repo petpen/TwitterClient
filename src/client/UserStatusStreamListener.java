@@ -1,3 +1,4 @@
+package client;
 import answers.AnswerGenerator;
 import twitter4j.Status;
 import twitter4j.Twitter;
@@ -10,7 +11,6 @@ import twitter4j.UserStreamListener;
  * Listener <b>only</b> for activities on the user status and mentions of this bound twitter account
  * 
  * @author Peter Pensold
- *
  */
 public class UserStatusStreamListener extends UserStreamAdapter implements UserStreamListener {
 	
@@ -20,7 +20,7 @@ public class UserStatusStreamListener extends UserStreamAdapter implements UserS
 	private Twitter twitter;
 	private String userScreenName = "";
 	
-	public UserStatusStreamListener(Twitter twitterInstance, String userScreenName) {
+	public UserStatusStreamListener(Twitter twitterInstance, String userScreenName, TwitterClient client) {
 		this.twitter = twitterInstance;
 		this.userScreenName = userScreenName;
 	}
@@ -75,7 +75,6 @@ public class UserStatusStreamListener extends UserStreamAdapter implements UserS
 			//I don't know why printf or String.format() doesn't work. This is just a workaround for the line thereunder
 			System.out.println("> Request from " + sender.getScreenName() + ": " + request + "\n\tAnswer: " + answer);
 			//System.out.printf(ANSWER_FORMAT, sender.getScreenName(), request, answer);
-			
 		} catch (TwitterException ex) {
 			sendSuccessful = false;
 
@@ -83,6 +82,7 @@ public class UserStatusStreamListener extends UserStreamAdapter implements UserS
 				System.out.println("Can't answer again. I answered this before");
 			else
 				System.out.println("Something went wrong with Twitter...");
+				ex.printStackTrace();
 		}
 		
 		return sendSuccessful;
