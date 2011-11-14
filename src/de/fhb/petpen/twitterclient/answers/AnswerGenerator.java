@@ -1,4 +1,4 @@
-package answers;
+package de.fhb.petpen.twitterclient.answers;
 
 import java.util.Random;
 

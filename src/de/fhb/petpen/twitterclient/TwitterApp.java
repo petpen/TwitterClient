@@ -1,4 +1,6 @@
-import client.TwitterClient;
+package de.fhb.petpen.twitterclient;
+
+import de.fhb.petpen.twitterclient.client.TwitterClient;
 
 public class TwitterApp {
 	

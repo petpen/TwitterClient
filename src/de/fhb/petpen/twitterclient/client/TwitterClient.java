@@ -1,16 +1,16 @@
-package client;
+package de.fhb.petpen.twitterclient.client;
 import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
 
-import exceptions.AccessAccountFailedException;
+import de.fhb.petpen.twitterclient.exceptions.AccessAccountFailedException;
 import twitter4j.Twitter;
 import twitter4j.TwitterFactory;
 import twitter4j.TwitterStream;
 import twitter4j.TwitterStreamFactory;
 import twitter4j.UserStream;
 import twitter4j.UserStreamListener;
-import util.Menu;
-import util.MenuOption;
+import de.fhb.petpen.twitterclient.util.Menu;
+import de.fhb.petpen.twitterclient.util.MenuOption;
 
 /**
  * Client for Twitter.

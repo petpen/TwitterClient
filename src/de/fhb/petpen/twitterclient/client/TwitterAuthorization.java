@@ -1,10 +1,10 @@
-package client;
-import exceptions.AccessAccountFailedException;
+package de.fhb.petpen.twitterclient.client;
+import de.fhb.petpen.twitterclient.exceptions.AccessAccountFailedException;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.auth.AccessToken;
 import twitter4j.auth.RequestToken;
-import util.ConsoleReader;
+import de.fhb.petpen.twitterclient.util.ConsoleReader;
 
 public class TwitterAuthorization {
 	

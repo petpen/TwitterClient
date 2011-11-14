@@ -1,5 +1,5 @@
-package client;
-import answers.AnswerGenerator;
+package de.fhb.petpen.twitterclient.client;
+import de.fhb.petpen.twitterclient.answers.AnswerGenerator;
 import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;

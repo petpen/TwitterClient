@@ -1,4 +1,4 @@
-package exceptions;
+package de.fhb.petpen.twitterclient.exceptions;
 import twitter4j.TwitterException;
 
 public class AccessAccountFailedException extends TwitterException {

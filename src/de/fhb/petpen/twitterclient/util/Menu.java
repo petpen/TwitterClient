@@ -1,6 +1,6 @@
-package util;
+package de.fhb.petpen.twitterclient.util;
 
-import exceptions.MenuOptionNotFoundException;
+import de.fhb.petpen.twitterclient.exceptions.MenuOptionNotFoundException;
 
 /**
  * Class to create a Menu on the OutputStream
