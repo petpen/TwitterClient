@@ -1,7 +1,1 @@
-bin/TwitterApp.class
-bin/TwitterAuthorization.class
-bin/TwitterClient.class
-bin/UserStatusStreamListener.class
-bin/answers/AnswerGenerator.class
-bin/exceptions/AccessAccountFailedException.class
-bin/util/ConsoleReader.class
+bin/*
